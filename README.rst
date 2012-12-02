@@ -18,4 +18,5 @@ Usage
 Gratitous Image
 ---------------
 
-..image:: http://a.tgcdn.net/images/products/frontsquare/e5a7_canned_unicorn_meat.jpg
+
+.. image:: http://a.tgcdn.net/images/products/frontsquare/e5a7_canned_unicorn_meat.jpg
