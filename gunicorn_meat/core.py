@@ -1,12 +1,21 @@
 # -*- coding: utf-8 -*-
 
+# \
+#  \ji
+#  /.((( 
+#  (,/"(((__,--.
+#     \  ) _( /{ 
+#      !|| " :||      
+#      !||   :|| 
+#       '''   ''' 
+
 from gunicorn import util
 from gunicorn.app.base import Application
 
 class WSGIApp(Application):
 
     def __init__(self, application, options={}):
-        """ Start the object. Default gUnicorn configuration is loaded """
+        """ Construct the Application. Default gUnicorn configuration is loaded """
 
         self.application = application
         self.usage = None
@@ -34,7 +43,7 @@ class WSGIApp(Application):
 class Meat(object):
 
     def __init__(self,app,**options):
-        """ Assign our application """
+        """ Construct our application """
 
         self.app = WSGIApp(app,options)
 
